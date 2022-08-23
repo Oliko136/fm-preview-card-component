@@ -1,3 +1,14 @@
+:root {
+  --primary-text-color: #6C7289;
+  --secondary-text-color: #1C232B;
+  --tertiary-text-color: #FFFFFF;
+  --accent-color: #3D8168;
+  --primary-bg-color: #F2EAE2;
+  --secondary-bg-color: #FFFFFF;
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Fraunces', serif;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,7 +24,8 @@ html {
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
-  font-family: Montserrat, sans-serif;
+  font-family: var(--primary-font);
+  font-size: 14px;
 }
 
 h1,

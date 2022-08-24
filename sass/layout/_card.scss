@@ -1,0 +1,23 @@
+.card {
+    margin: auto;
+    width: $mobile;
+}
+
+.card__description {
+    width: 295px;
+
+    font-size: 13px;
+    line-height: 1.76;
+}
+
+.card__new-price {
+    color: var(--accent-color);
+    font-family: var(--secondary-font);
+    font-size: 32px;
+}
+
+.card__old-price {
+    font-size: 13px;
+    line-height: 1.76;
+    text-decoration: line-through;
+}
